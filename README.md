@@ -13,13 +13,9 @@ A backend endpoint returns an array of products. However, some of these products
 
 # Problem
 
-Implement a method that calculates the total value of products (total price) where there are no missing, invalid, or empty values. So no empty strings, null values, and 0 values. 
-
-> - Go to app.js 
-> - Find the method called totalSumOfProducts
-> - implement your solution here
-
-The method has already been provided, you just need to implement the logic for it. 
+- Go to app.js. You'll find an array of objects called products. 
+- Calculate the total sum where the object has valid key => value pairs. 
+- There's a method called totalSumOfProducts. Write your logic here. 
 
 # Testing 
 

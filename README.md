@@ -19,7 +19,7 @@ The method has already been provided, you just need to implement the logic for i
 
 # Testing 
 
-Once you've satisfied with your code, just run npm run test, and it should tell you if your code works. 
+Once you've satisfied with your code, just run *npm run test*, and it should tell you if your code works. 
 
 Make sure at least one of the test passes. :) 
 

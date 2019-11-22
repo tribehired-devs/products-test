@@ -2,9 +2,9 @@
 
 - Run the following commands in your terminal 
 
-> git clone https://github.com/a-madhukar/products-test.git
-> cd products-test
-> npm install 
+> - git clone https://github.com/a-madhukar/products-test.git
+> - cd products-test
+> - npm install 
 
 
 # Scenario 

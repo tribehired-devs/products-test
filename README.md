@@ -13,20 +13,23 @@ A backend endpoint returns an array of products. However, some of these products
 
 # Problem
 
-- Go to app.js. You'll find an array of objects called products. 
-- Calculate the total sum where the object has valid key => value pairs. 
-- There's a method called totalSumOfProducts. Write your logic here. 
+- Go to **app.js**. You'll find an array of objects called products. 
+- Calculate the total sum where the object has valid key => value pairs. Don't count empty, null or 0 values. 
+- The price in the object is in cents. So convert it back to a decimal/currency value. 
+- There's a method called **totalSumOfProducts**. Write your logic there. 
 
 # Testing 
 
-Once you've satisfied with your code, just run **npm run test**, and it should tell you if your code works. 
+Once you're satisfied with your code, just run **npm run test**, and it should tell you if your code works. 
 
 Make sure at least one of the test passes. :) 
 
 # Bonus Problem
 
-At any given point of time, your backend developer might change the keys returned in the response. So instead of name, it could be item_name or title, etc. 
+- Each of the products in the array can have a different set of keys. Instead of name, price, and category.
 
-Implement a method that dynamically checks the key pair values of every object, and calculates the total sum provided it doesn't have any empty fields. 
+- The object could have keys like item_name, item_price, item_category, and item_warranty_period, etc. 
 
-Note: There will be only 1 integer field returned in the object. You can assume that this would be the price.
+- write a function that dynamically checks that the object has valid key value pairs, and calculates the total price. 
+
+- Ignore all objects where the values are empty, blank, 0, null or undefined. 
